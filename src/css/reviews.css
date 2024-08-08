@@ -2,3 +2,47 @@
   background-color: rgb(81, 83, 81);
   text-align: center;
 }
+.container {
+  padding: 0 75px;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 854px;
+  margin-bottom: 25px;
+}
+
+.reviews-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+}
+.review-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
+.reviews-item-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+.title-text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 193px;
+}
