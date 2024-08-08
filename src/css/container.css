@@ -15,6 +15,10 @@
     max-width: 1280px;
     padding: 0 50px;
   }
+
+  button {
+    cursor: url('/img/cursor.png'), auto;
+  }
 }
 @media (min-width: 1440px) {
   .container {
