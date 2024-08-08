@@ -23,11 +23,9 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
 button {
-  cursor: pointer;
+  cursor: url('/src/img/cursor.svg'), auto;
 }
-
 img {
   display: block;
   max-width: 100%;
