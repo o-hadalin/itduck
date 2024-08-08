@@ -6,6 +6,7 @@
 .yacht-cont {
   margin-bottom: 80px;
 }
+
 .our-yachts-title {
   font-weight: 500;
   font-size: 28px;
@@ -17,9 +18,10 @@
   padding-left: 28px;
   padding-right: 28px;
 }
+
 .yachts-card {
   border-radius: 24px;
-  width: 100%;
+  min-width: 335px;
   height: 478px;
   background: #fbfbfb;
   /* margin-left: 20px;
@@ -36,14 +38,22 @@
 }
 .yachts-item-cont {
 }
+
 .yachts-img {
   border-radius: 24px;
   width: 302px;
-  
+
   margin-bottom: 32px;
 
   background: url('/img/yaht/yaht-arrow-mob.jpg');
 }
+
+.sub-cont {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* Name-Type */
+
 .yachts-title-cont {
   display: flex;
   align-items: center;
@@ -74,17 +84,22 @@
   color: #040306;
   opacity: 0.4;
 }
+/* \\\\\\\\\\\\\ */
+
+/* Characteristics */
 .yachts-characteristics-cont {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
   gap: 114px;
+  width: 100%;
 
-  margin-left: 32px;
-  margin-right: 32px;
+  /* margin-left: 32px;
+  margin-right: 32px; */
   margin-bottom: 32px;
 }
+
 .yachts-char-name-list {
   display: flex;
   align-items: flex-start;
@@ -93,8 +108,10 @@
   gap: 6px;
   opacity: 0.4;
 }
+
 .yachts-char-name {
 }
+
 .char-name-text {
   font-weight: 400;
   font-size: 14px;
@@ -103,6 +120,7 @@
   text-transform: uppercase;
   color: #040306;
 }
+
 .yachts-char-tip-list {
   display: flex;
   align-items: flex-start;
@@ -110,8 +128,10 @@
   flex-direction: column;
   gap: 6px;
 }
+
 .yachts-char-tip {
 }
+
 .yachts-char-tip-text {
   font-weight: 400;
   font-size: 14px;
@@ -119,19 +139,23 @@
   letter-spacing: 0.03em;
   color: #040306;
 }
+/* \\\\\\\\\\ */
+
+/* BTN */
 .our-yachts-btn {
-  display: flex;
-  align-items: flex-start;
+  display: block;
+  /* align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: row; */
+  /* gap: 10px; */
 
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
   padding: 14px 32px;
-  width: 141px;
+  min-width: 141px;
   height: 46px;
   background-color: transparent;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -139,4 +163,10 @@
   color: #fbfbfb;
 
   margin: 0 auto;
+}
+
+.our-yachts-btn:hover,
+.our-yachts-btn:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
 }
