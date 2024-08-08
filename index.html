@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/itduck/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/itduck/assets/index-e3e30d7a.css">
+    <link rel="stylesheet" href="/itduck/assets/index-20377fa1.css">
   </head>
   <body>
     <!-- Header -->
@@ -47,8 +47,77 @@
 </section>
 
       <!-- Section Rent a yacht -->
-      <section class="rent-yacht">
-  <div class="container">Rent and yacht code</div>
+      <section>
+  <div class="container rent-container">
+    <div class="yacht-photo-box">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/itduck/assets/rent-mob-a346dbc9.jpg 1x, /itduck/assets/rent-mob-2x-dd976e86.jpg 2x"
+        />
+        <source
+          media="(max-width: 1279px)"
+          srcset="/itduck/assets/rent-tab-ae6f00f2.jpg 1x, /itduck/assets/rent-tab-2x-f6063f2f.jpg 2x"
+        />
+        <source
+          media="(max-width: 1439px)"
+          srcset="/itduck/assets/rent1280-80907416.jpg 1x, /itduck/assets/rent1280-2x-92bfe4b9.jpg 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="/itduck/assets/rent1440-b34935e6.jpg 1x, /itduck/assets/rent1440-2x-69ec55d7.jpg 2x"
+        />
+        <img
+          class="yacht-photo"
+          src="/itduck/assets/rent1440-b34935e6.jpg"
+          alt="yacht on the lake"
+          width="768"
+          height="534"
+        />
+      </picture>
+    </div>
+    <div class="rent-form-container">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-text">
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="text"
+              name="user-name"
+              placeholder="Full Name"
+            />
+          </label>
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              name="user-email"
+              placeholder="Email"
+            />
+          </label>
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="tel"
+              pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+              name="user-phone"
+              placeholder="Phone number"
+            />
+          </label>
+          <label class="rent-form-textarea-label">
+            <textarea
+              class="rent-form-textarea"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+        </div>
+        <button type="submit" class="rent-form-btn">Send</button>
+      </form>
+    </div>
+  </div>
 </section>
 
       <!-- Section Reviews -->
