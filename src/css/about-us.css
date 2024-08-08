@@ -1,59 +1,4 @@
-
-/* .about {
-  margin: 0 auto;
-  margin-top: -60px;
-
-  max-width: 335px;
-
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  border-radius: 24px;
-  background-color: #fbfbfb;
-}
-
-.about-container-text {
-  padding: 0;
-  margin: 0;
-}
-
-.about-title {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #1b414b;
-
-  max-width: 295px;
-  margin-bottom: 40px;
-}
-
-.about-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #1b414b;
-  max-width: 295px;
-  margin-bottom: 20px;
-}
-
-.about-subtext {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 117%;
-  letter-spacing: -0.02em;
-  color: #040306;
-  opacity: 0.4;
-  max-width: 295px;
-} 
-
-.about-container-img {
-  background-image: url(../img/about/about-mob.jpg);
-  padding: 0;
-} */
+             /* ABOUT */
 
 .about {
   margin: 0 auto;
@@ -101,12 +46,22 @@
 }
 
 .about-container-img {
-  max-width: 335px;
+  max-width: 100%;
   height: 395px;
   border-radius: 24px;
-  background-color: #fbfbfb;
 
-  background-image: url(../img/about/about-mob.jpg);
+  background-image: url(/img/about/about-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx) {
+  .about-container-img {
+    background-image: url(/img/about/about-mob-2x.jpg);
+  }
 }
 
 .about-img {
@@ -144,11 +99,21 @@
   }
   
     .about-container-img {
-      width: 704px;
+      max-width: 100%;
       height: 470px;
-      background-image: url(../img/about/about-tab.jpg);
+      background-image: url(/img/about/about-tab.jpg);
     }
 }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx) {
+  .about-container-img {
+    background-image: url(../img/about/about-tab-2x.jpg);
+  }
+}
+
+
 
 @media screen and (min-width: 1280px) {
   .about {
@@ -175,5 +140,37 @@
 
   .about-subtext {
     max-width: 354px;
+  }
+
+  .about-container-img {
+   max-width: 100%;
+   background-image: url(../img/about/about-desktop1280.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx) {
+  .about-container-img {
+    background-image: url(../img/about/about-desktop1280-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+      max-width: 1340px;
+    }
+
+  .about-container-img {
+    max-width: 100%;
+    background-image: url(../img/about/about-desktop1440.jpg);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution:2dppx) {
+  .about-container-img {
+    background-image: url(../img/about/about-desktop1440-2x.jpg);
   }
 }
