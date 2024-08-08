@@ -64,6 +64,11 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.rent-form-input::placeholder,
+.rent-form-textarea::placeholder {
+  color: rgba(251, 251, 251, 0.4);
+}
+
 .rent-form-input:focus,
 .rent-form-input:hover,
 .rent-form-textarea:focus,
@@ -100,7 +105,8 @@
   }
 
   .rent-form-container {
-    margin-left: 116px;
+    margin: 0 auto;
+    width: 473px;
   }
 
   .yacht-photo-box {
@@ -151,6 +157,11 @@
   .rent-container {
     display: flex;
     flex-direction: row;
+  }
+
+  .rent-form-container {
+    margin-left: 50px;
+    width: 472px;
   }
 
   .yacht-photo-box {
