@@ -103,7 +103,7 @@
 
 .advantages-item {
   /*width: 100%;*/
-  width:(calc(100%-32px)/ 2 );
+  width:(calc(100% - 32px)/ 2 );
   flex-basis: auto;
 }
 
@@ -147,7 +147,7 @@
   max-width: 716px;
 }
 .advantages-item {
-  width:(calc(100%-44px) / 2 );
+  width:(calc(100% - 44px) / 2 );
 }
 .advantages-image-container {
   max-width: 432px;
@@ -159,7 +159,7 @@
     max-width: 768px;
   }
   .advantages-item {
-    width:(calc(100%-32px) / 2 );
+    width:(calc(100% - 32px) / 2 );
   }
   .advantages-image-container {
     min-width: 540px;
