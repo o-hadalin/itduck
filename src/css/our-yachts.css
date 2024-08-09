@@ -21,6 +21,9 @@
 @media screen and (min-width: 768px) {
   .our-yachts-title {
     font-size: 48px;
+    display: block;
+    width: 714px;
+    margin: 0 auto 75px;
   }
 }
 .yachts-card {
@@ -53,7 +56,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  
+
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   margin-bottom: 16px;
   padding-bottom: 16px;
@@ -100,7 +103,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: row;
-  
+
   width: 100%;
 
   margin-bottom: 32px;
