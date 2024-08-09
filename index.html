@@ -18,7 +18,7 @@
     
     <script type="module" crossorigin src="/itduck/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/itduck/assets/vendor-dc46b456.js">
-    <link rel="stylesheet" href="/itduck/assets/index-35dd9a5d.css">
+    <link rel="stylesheet" href="/itduck/assets/index-a7ad2c06.css">
   </head>
   <body>
     <!-- Header -->
@@ -44,9 +44,54 @@
 </section>
 
       <!-- Section About us -->
-      <section class="about" id="about">
-  <div class="container">About us code</div>
-</section>
+      <section class="about container">
+  <div class="about-container-text">
+    <div class="about-text-flex">
+      <h2 class="flex-block-item about-title">
+        YachtJet fleet is here to take you on the ultimate adventure
+      </h2>
+      <div class="flex-block-item about-paragraph-container">
+        <p class="about-text">
+          From spacious decks to state-of-the-art technology, our yachts are
+          designed to provide the perfect blend of luxury and functionality.
+        </p>
+        <p class="about-subtext">
+          Take a look at our selection below and choose the yacht that matches
+          your needs and preferences.No matter which yacht you choose, our
+          experienced crew will ensure that your journey is smooth and
+          enjoyable. Book now and get ready for an unforgettable adventure on
+          the high seas.
+        </p>
+      </div>
+    </div>
+    <div class="about-container-img">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/itduck/assets/about-mob-6893a07c.jpg 1x, /itduck/assets/about-mob-2x-60f1ee45.jpg 2x"
+        />
+        <source
+          media="(max-width: 1279px)"
+          srcset="/itduck/assets/about-tab-15f6d511.jpg 1x, /itduck/assets/about-tab-2x-e258ac12.jpg 2x"
+        />
+        <source
+          media="(max-width: 1439px)"
+          srcset="/itduck/assets/about-desktop1280-1871023f.jpg 1x, /itduck/assets/about-desktop1280-2x-424cafd6.jpg 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="/itduck/assets/about-desktop1440-449e8250.jpg 1x, /itduck/assets/about-desktop1440-2x-43ab0358.jpg 2x"
+        />
+        <img
+          class="about-photo"
+          src="/itduck/assets/about-desktop1440-449e8250.jpg"
+          alt="yacht on the lake at dusk"
+          width="1340"
+          height="470"
+        />
+      </picture>
+    </div>
+  </div>
 
       <!-- Section Our yachts -->
       <section class="our-yachts">
@@ -367,7 +412,65 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-  <div class="container">Fotter code</div>
+  <div class="container footer-container">
+    <div class="footer-container-tab">
+      <div class="footer-nav-container">
+        <nav class="footer-nav">
+          <a href="./index.html" class="footer-logo">yachtjet</a>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-title">
+              <a href="" class="footer-nav-link">About</a>
+            </li>
+            <li class="footer-nav-title">
+              <a href="" class="footer-nav-link">Yachts</a>
+            </li>
+            <li class="footer-nav-title">
+              <a href="" class="footer-nav-link">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-soc">
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              class="footer-soc-link"
+            >
+              <svg class="soc-icon" width="24" height="24">
+                <use href="/itduck/assets/icons-ed88b682.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a href="https://www.youtube.com/c/GoIT" class="footer-soc-link"
+              ><svg class="soc-icon" width="24" height="24">
+                <use href="/itduck/assets/icons-ed88b682.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a href="https://www.facebook.com/goITclub/" class="footer-soc-link"
+              ><svg class="soc-icon" width="24" height="24">
+                <use href="/itduck/assets/icons-ed88b682.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer-text">
+      No matter which yacht you choose, our experienced crew will ensure that
+      your journey is smooth and enjoyable.
+    </p>
+
+    <div class="privacy">
+      <p class="privacy-text">2023. Yacht Adventures</p>
+      <p class="privacy-text">Privacy Police</p>
+    </div>
+  </div>
 </footer>
 
     <!-- Mobile menu -->
