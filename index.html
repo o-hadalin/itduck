@@ -17,7 +17,7 @@
     />
     
     <script type="module" crossorigin src="/itduck/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/itduck/assets/index-eb273aba.css">
+    <link rel="stylesheet" href="/itduck/assets/index-38d078da.css">
   </head>
   <body>
     <!-- Header -->
@@ -137,7 +137,6 @@
   <div class="container">Reviews code</div>
 </section>
 
-      <button type="button">test</button>
     </main>
     <!-- Footer -->
     <footer class="footer">
@@ -145,47 +144,88 @@
 </footer>
 
     <!-- Mobile menu -->
-    <div class="mob-menu is-open">
+    <div class="mob-menu js-menu-container" id="mobile-menu">
   <div>
     <div class="header-mob">
       <p class="header-txt-mob">yachtjet</p>
-      <button type="button" class="menu-close-btn js-close-menu" aria-expanded="false" aria-controls="mobile-menu"><svg
-          width="28" height="28">
-          <use href="/itduck/assets/icons-ed88b682.svg#icon-close-menu">
-          </use>
-        </svg></button>
+      <button
+        type="button"
+        class="menu-close-btn js-close-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="28" height="28">
+          <use href="/itduck/assets/icons-ed88b682.svg#icon-close-menu"></use>
+        </svg>
+      </button>
     </div>
     <nav class="nav">
       <ul class="mob-menu-list">
-        <button class="mob-round-menu">
-          <li class="mob-menu-item"><a class="mob-menu-link" href="#about" target="_blank">About</a>
-          </li>
-        </button>
-        <button class="mob-round-menu">
-          <li class="mob-menu-item"><a class="mob-menu-link" href="#yachts" target="_blank">Yachts</a></li>
-        </button>
-        <button class="mob-round-menu">
-          <li class="mob-menu-item"><a class="mob-menu-link" href="#reviews" target="_blank">Reviews</a></li>
-        </button>
+        <li class="mob-menu-item">
+          <a class="mob-round-menu mob-menu-link" href="#about" target="_blank"
+            >About</a
+          >
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-round-menu mob-menu-link" href="#about" target="_blank"
+            >Yachts</a
+          >
+        </li>
+        <li class="mob-menu-item">
+          <a class="mob-round-menu mob-menu-link" href="#about" target="_blank"
+            >Reviews</a
+          >
+        </li>
       </ul>
     </nav>
   </div>
   <ul class="mob-icon-list">
-    <li class="icon-item"><a href="https://www.instagram.com/goitclub/" target="_blank" class="mob-icon-link"><svg
-          class="mob-item-icon" width="24" height="24">
-          <use href="/itduck/assets/icons-ed88b682.svg#icon-instagram"></use>
-        </svg></a></li>
-    <li class="icon-item"><a href="https://www.youtube.com/c/GoIT" target="_blank" class="mob-icon-link"><svg
-          class="mob-item-icon" width="24" height="24">
-          <use href="/itduck/assets/icons-ed88b682.svg#icon-youtube"></use>
-        </svg></a></li>
-    <li class="icon-item"><a href="https://www.facebook.com/goITclub/" target="_blank" class="mob-icon-link">
+    <li class="icon-item">
+      <a
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+        class="mob-icon-link"
+        ><svg class="mob-item-icon" width="24" height="24">
+          <use href="/itduck/assets/icons-ed88b682.svg#icon-instagram"></use></svg
+      ></a>
+    </li>
+    <li class="icon-item">
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+        class="mob-icon-link"
+        ><svg class="mob-item-icon" width="24" height="24">
+          <use href="/itduck/assets/icons-ed88b682.svg#icon-youtube"></use></svg
+      ></a>
+    </li>
+    <li class="icon-item">
+      <a
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+        class="mob-icon-link"
+      >
         <svg class="mob-item-icon" width="24" height="24">
-          <use href="/itduck/assets/icons-ed88b682.svg#icon-facebook"></use>
-        </svg></a></li>
+          <use href="/itduck/assets/icons-ed88b682.svg#icon-facebook"></use></svg
+      ></a>
+    </li>
   </ul>
 </div>
+
     <!-- Script for menu-mobile -->
+    <button
+      type="button"
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      Open mobile menu
+    </button>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
