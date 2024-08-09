@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #0E1823;
+  background-color: #0e1823;
   padding-top: 16px;
   padding-bottom: 40px;
   padding-left: 20px;
@@ -17,8 +17,8 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-close-btn {
@@ -32,8 +32,6 @@
   fill: #055545;
   padding-inline: 0;
 }
-
-.mob-menu-list {}
 
 .mob-round-menu {
   border-radius: 8px;
@@ -87,7 +85,6 @@
   flex-direction: column;
   gap: 4px;
   margin-top: 201px;
-
 }
 
 .mob-icon-list {
@@ -97,7 +94,6 @@
   gap: 8px;
   margin-top: 8px;
 }
-
 
 .mob-item-icon {
   fill: #fbfbfb;
@@ -112,22 +108,11 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
-  .mob-menu {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .mob-menu {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1440px) {
   .mob-menu {
     display: none;
   }
