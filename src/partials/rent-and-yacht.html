@@ -1,3 +1,72 @@
-<section class="rent-yacht">
-  <div class="container">Rent and yacht code</div>
+<section>
+  <div class="container rent-container" id="rent">
+    <div class="yacht-photo-box">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="/img/rent/rent-mob.jpg 1x, /img/rent/rent-mob-2x.jpg 2x"
+        />
+        <source
+          media="(max-width: 1279px)"
+          srcset="/img/rent/rent-tab.jpg 1x, /img/rent/rent-tab-2x.jpg 2x"
+        />
+        <source
+          media="(max-width: 1439px)"
+          srcset="/img/rent/rent1280.jpg 1x, /img/rent/rent1280-2x.jpg 2x"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="/img/rent/rent1440.jpg 1x, /img/rent/rent1440-2x.jpg 2x"
+        />
+        <img
+          class="yacht-photo"
+          src="/img/rent/rent1440.jpg"
+          alt="yacht on the lake"
+          width="768"
+          height="534"
+        />
+      </picture>
+    </div>
+    <div class="rent-form-container">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-text">
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="text"
+              name="user-name"
+              placeholder="Full Name"
+            />
+          </label>
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              name="user-email"
+              placeholder="Email"
+            />
+          </label>
+          <label class="rent-form-label">
+            <input
+              class="rent-form-input"
+              type="tel"
+              pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+              name="user-phone"
+              placeholder="Phone number"
+            />
+          </label>
+          <label class="rent-form-textarea-label">
+            <textarea
+              class="rent-form-textarea"
+              name="user-comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+        </div>
+        <button type="submit" class="rent-form-btn">Send</button>
+      </form>
+    </div>
+  </div>
 </section>
