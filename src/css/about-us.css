@@ -107,6 +107,7 @@
   .about-container-text {
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
   }
 
   .about-text-flex {
@@ -137,7 +138,6 @@
     width: calc(100% + 100px);
     margin-left: -50px;
     margin-right: -50px;
-    margin-bottom: 0;
   }
 }
 
