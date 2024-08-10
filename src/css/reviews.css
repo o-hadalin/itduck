@@ -81,9 +81,9 @@
   .reviews-item {
     width: calc((100% - 32px) / 2);
   }
-}
-.reviews {
-  margin-bottom: 150px;
+  .reviews {
+    margin-bottom: 150px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
