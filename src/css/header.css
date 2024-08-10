@@ -1,11 +1,12 @@
 .header {
   position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  box-sizing: border-box;
+  top: 16px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 10;
+  padding: 0 20px;
 }
 .header-container {
   background-color: #fbfbfb;
@@ -120,6 +121,9 @@
   .header-soc-list {
     display: flex;
     padding-right: 28px;
+  }
+  .header {
+    top: 32px;
   }
 }
 
