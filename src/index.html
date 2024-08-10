@@ -33,13 +33,26 @@
       <load src="partials/rent-and-yacht.html" />
       <!-- Section Reviews -->
       <load src="partials/reviews.html" />
-      <button type="button">test</button>
     </main>
     <!-- Footer -->
     <load src="partials/footer.html" />
     <!-- Mobile menu -->
     <load src="partials/mobile-menu.html" />
     <!-- Script for menu-mobile -->
+    <button
+      type="button"
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      Open mobile menu
+    </button>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

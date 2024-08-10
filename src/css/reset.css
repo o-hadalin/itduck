@@ -19,13 +19,13 @@ ol {
   padding: 0;
   list-style: none;
 }
-
+button,
+a {
+  cursor: default;
+}
 a {
   color: currentColor;
   text-decoration: none;
-}
-button {
-  cursor: url('/src/img/cursor.svg'), auto;
 }
 img {
   display: block;
