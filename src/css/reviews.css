@@ -50,7 +50,9 @@
   border-radius: 72px;
   margin-bottom: 24px;
 }
-
+.reviews {
+  margin-bottom: 80px;
+}
 @media screen and (min-width: 768px) {
   .reviews-title {
     font-size: 48px;
@@ -79,6 +81,9 @@
   .reviews-item {
     width: calc((100% - 32px) / 2);
   }
+}
+.reviews {
+  margin-bottom: 150px;
 }
 
 @media screen and (min-width: 1280px) {
