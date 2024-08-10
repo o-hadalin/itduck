@@ -1,3 +1,12 @@
+.header {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+}
 .header-container {
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
@@ -7,9 +16,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  margin-top: 20px;
 }
-
 .header-navigation {
   display: flex;
   margin-right: auto;
@@ -68,7 +75,7 @@
 
 .header-soc-icon:hover,
 .header-soc-icon:focus {
-  fill: rgba(251, 251, 251, 0.8);
+  fill: #062730;
 }
 
 .menu-toggle {
