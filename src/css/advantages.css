@@ -1,5 +1,4 @@
 .advantages {
-  background-color: rgb(102, 66, 169);
   margin-bottom: 80px;
   display:flex;
   flex-direction: column;
@@ -30,25 +29,25 @@
   
 }
 .advantages-list {
-  /*list-style-type: none;*/
   display: flex;
   flex-wrap: wrap;
   row-gap: 18px;
   padding-left: 0;
+  margin: 0;
 }
 .advantages-item {
   list-style-type: none;
 }
 .advantages-number {
   font-weight: 500;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.05em;
-    color: #fbfbfb;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  font-size: 28px;
     
 }
 .advantages-line {
-  content:'';
+  content: '';
   border-radius: 18px;
   width: 100%;
   height: 2px;
@@ -61,26 +60,22 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     opacity: 0.8;
-    
 }
 
 .advantages-image-container {
   border-radius: 24px;
   overflow: hidden;
   margin: auto;
+  width: 100%;
+  object-fit: cover;
   }
     
 .advantages-item-list {
   display: flex;
   flex-direction: column;
-  row-gap: 18px;
-  
+  row-gap: 18px; 
 }
-.advantages-picture {
-  width: 100%;
-  object-fit: cover;
-  
-}
+
 @media screen and (min-width: 768px) {
   .advantages {
     margin-bottom: 150px;
@@ -91,37 +86,32 @@
   padding-right: 32px;
   padding-top: 90px;
   padding-bottom: 90px;
- 
-  
 }
+
 .advantages-list {
-  flex-wrap: wrap;
   row-gap: 44px; 
   column-gap: 32px;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 704px;
 
 .advantages-item {
-  /*width: 100%;*/
-  width:(calc(100% - 32px)/ 2 );
-  flex-basis: auto;
+  width: calc((100% - 32px)/ 2 );
+
 }
 
 .advantages-number {
   font-size: 32px;
 }
 
-.advantages-line {
-
-}
 .advantages-text {
   font-size: 13px;
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   opacity: 0.8;
-  text-align: left ;
+  text-align: left;
 }
+
 .advantages-image-container {
    max-width: 704px;
  }
@@ -141,13 +131,13 @@
   padding-left: 50px;
   padding-right: 50px;
   
-  
 }
+
 .advantages-list {
   max-width: 716px;
 }
 .advantages-item {
-  width:(calc(100% - 44px) / 2 );
+  width: calc((100% - 44px) / 2 );
 }
 .advantages-image-container {
   max-width: 432px;
@@ -159,11 +149,10 @@
     max-width: 768px;
   }
   .advantages-item {
-    width:(calc(100% - 32px) / 2 );
+    width: calc((100% - 32px) / 2 );
   }
   .advantages-image-container {
     min-width: 540px;
   }
-  
  }
 }
