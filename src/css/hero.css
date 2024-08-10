@@ -2,9 +2,9 @@
   padding: 0;
   background-image: linear-gradient(
       360deg,
-      rgba(17, 19, 31, 0.8) 15.05%,
-      rgba(17, 19, 31, 0.8) 75.3%,
-      rgba(17, 19, 31, 0.8) 98.27%
+      rgba(17, 19, 31, 1) 15.05%,
+      rgba(17, 19, 31, 0.39) 75.3%,
+      rgba(17, 19, 31, 0) 98.27%
     ),
     url('/img/hero/hero-mob.jpg');
 
@@ -24,11 +24,11 @@
   .hero {
     background-image: linear-gradient(
         360deg,
-        rgba(17, 19, 31, 0.8) 15.05%,
-        rgba(17, 19, 31, 0.8) 75.3%,
-        rgba(17, 19, 31, 0.8) 98.27%
+        rgba(17, 19, 31, 1) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
       ),
-      url('/img/hero/hero-mob-2x.jpg');
+      url('path_to_image'), url('/img/hero/hero-mob-2x.jpg');
   }
 }
 
@@ -94,9 +94,9 @@
   .hero {
     background-image: linear-gradient(
         360deg,
-        rgba(17, 19, 31, 0.8) 15.05%,
-        rgba(17, 19, 31, 0.8) 75.3%,
-        rgba(17, 19, 31, 0.8) 98.27%
+        rgba(17, 19, 31, 1) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
       ),
       url('/img/hero/hero-tab.jpg');
 
@@ -111,9 +111,9 @@
     .hero {
       background-image: linear-gradient(
           360deg,
-          rgba(17, 19, 31, 0.8) 15.05%,
-          rgba(17, 19, 31, 0.8) 75.3%,
-          rgba(17, 19, 31, 0.8) 98.27%
+          rgba(17, 19, 31, 1) 15.05%,
+          rgba(17, 19, 31, 0.39) 75.3%,
+          rgba(17, 19, 31, 0) 98.27%
         ),
         url('/img/hero/hero-tab-2x.jpg');
     }
@@ -149,9 +149,9 @@
   .hero {
     background-image: linear-gradient(
         360deg,
-        rgba(17, 19, 31, 0.8) 15.05%,
-        rgba(17, 19, 31, 0.8) 75.3%,
-        rgba(17, 19, 31, 0.8) 98.27%
+        rgba(17, 19, 31, 1) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
       ),
       url('/img/hero/hero-desktop1280.jpg');
 
@@ -166,9 +166,9 @@
     .hero {
       background-image: linear-gradient(
           360deg,
-          rgba(17, 19, 31, 0.8) 15.05%,
-          rgba(17, 19, 31, 0.8) 75.3%,
-          rgba(17, 19, 31, 0.8) 98.27%
+          rgba(17, 19, 31, 1) 15.05%,
+          rgba(17, 19, 31, 0.39) 75.3%,
+          rgba(17, 19, 31, 0) 98.27%
         ),
         url('/img/hero/hero-desktop1280-2x.jpg');
     }
@@ -185,9 +185,9 @@
   .hero {
     background-image: linear-gradient(
         360deg,
-        rgba(17, 19, 31, 0.8) 15.05%,
-        rgba(17, 19, 31, 0.8) 75.3%,
-        rgba(17, 19, 31, 0.8) 98.27%
+        rgba(17, 19, 31, 1) 15.05%,
+        rgba(17, 19, 31, 0.39) 75.3%,
+        rgba(17, 19, 31, 0) 98.27%
       ),
       url('/img/hero/hero-desktop1440.jpg');
     max-width: 1440px;
@@ -199,9 +199,9 @@
     .hero {
       background-image: linear-gradient(
           360deg,
-          rgba(17, 19, 31, 0.8) 15.05%,
-          rgba(17, 19, 31, 0.8) 75.3%,
-          rgba(17, 19, 31, 0.8) 98.27%
+          rgba(17, 19, 31, 1) 15.05%,
+          rgba(17, 19, 31, 0.39) 75.3%,
+          rgba(17, 19, 31, 0) 98.27%
         ),
         url('/img/hero/hero-desktop1440-2x.jpg');
     }
