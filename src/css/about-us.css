@@ -1,5 +1,5 @@
 .about {
-  margin: 0 auto;
+  margin: 0 auto 80px;
   margin-top: -60px;
   border-radius: 24px;
   max-width: 335px;
@@ -51,15 +51,18 @@
   width: calc(100% + 40px);
   margin-left: -20px;
   margin-right: -20px;
-  margin-bottom: 80px;
   height: auto;
   background-color: #0e1823;
 }
 
-.about-img {
+.about-photo {
   border-radius: 24px;
+  background-color: #0e1823;
 }
-
+.about-photo,
+.about-container-img {
+  box-shadow: none;
+}
 @media screen and (min-width: 768px) {
   .about {
     max-width: 704px;

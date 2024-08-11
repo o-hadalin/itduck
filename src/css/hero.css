@@ -16,8 +16,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* border: 1px solid #000;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -42,9 +40,7 @@
 
 .hero-title {
   max-width: 335px;
-
   margin-bottom: 24px;
-
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
@@ -55,9 +51,7 @@
 
 .hero-text {
   max-width: 335px;
-
   margin-bottom: 38px;
-
   font-weight: 300;
   font-size: 12px;
   line-height: 1.17;
@@ -67,18 +61,14 @@
 
 .hero-btn {
   display: block;
-
   min-width: 141px;
   height: 46px;
-
   padding: 14px 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-
   background-color: #1b414b;
   border-radius: 15px;
   border: none;
@@ -129,9 +119,7 @@
 
   .hero-text {
     max-width: 597px;
-
     margin-bottom: 48px;
-
     font-size: 16px;
     line-height: 1.4;
   }
@@ -139,9 +127,7 @@
   .hero-btn {
     min-width: 179px;
     height: 52px;
-
     padding: 16px 40px;
-
     font-size: 18px;
     line-height: 1.1;
   }
@@ -178,7 +164,6 @@
 
   .hero-title {
     max-width: 1001px;
-
     font-size: 80px;
   }
 }
