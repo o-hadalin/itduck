@@ -121,6 +121,9 @@
     max-width: 736px;
     padding: 50px 48px 20px;
   }
+  .footer {
+    padding: 0 16px;
+  }
   .footer-nav-container {
     margin-bottom: 0;
   }
@@ -172,6 +175,10 @@
   .footer-container {
     max-width: 1230px;
     padding: 50px 75px 20px;
+  }
+
+  .footer {
+    padding: 0 25px;
   }
 
   .footer-nav {
