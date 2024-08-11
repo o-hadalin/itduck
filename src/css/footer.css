@@ -67,12 +67,17 @@
   margin-top: 80px;
 }
 
-.soc-icon {
+.footer-soc-link {
   fill: #fbfbfb;
 }
 
-.soc-icon:hover,
-.soc-icon:focus {
+.soc-icon {
+  display: flex;
+  box-sizing: content-box;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   fill: rgba(251, 251, 251, 0.8);
 }
 
