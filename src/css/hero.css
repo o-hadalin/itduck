@@ -72,6 +72,7 @@
   background-color: #1b414b;
   border-radius: 15px;
   border: none;
+  margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -91,7 +92,6 @@
         rgba(17, 19, 31, 0) 98.27%
       ),
       url('/img/hero/hero-tab.jpg');
-
     padding-top: 280px;
     padding-bottom: 282px;
     max-width: 768px;
@@ -113,7 +113,6 @@
 
   .hero-title {
     max-width: 650px;
-
     font-size: 70px;
   }
 
