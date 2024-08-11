@@ -1,5 +1,6 @@
 .advantages {
-  margin-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display:flex;
   flex-direction: column;
   row-gap: 20px;
@@ -81,7 +82,8 @@
 
 @media screen and (min-width: 768px) {
   .advantages {
-    margin-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     row-gap: 32px;
 }
 .list-advantages-container {
