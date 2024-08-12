@@ -3,10 +3,6 @@
   text-align: center;
 }
 
-.yacht-cont {
-  margin-bottom: 80px;
-}
-
 .our-yachts-title {
   font-weight: 500;
   font-size: 28px;
@@ -24,12 +20,12 @@
     font-size: 48px;
     display: block;
     width: 714px;
-    margin: 0 auto 75px;
+    margin: 0 auto;
   }
 }
 .yachts-card {
   border-radius: 24px;
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
