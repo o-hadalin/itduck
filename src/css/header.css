@@ -70,7 +70,15 @@
   margin: 0 auto;
 }
 
+.header-soc-item {
+  display: flex;
+  align-items: center;
+}
+
 .header-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #1b414b;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
