@@ -16,6 +16,7 @@
 
 .footer-container-tab {
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 
 .footer-logo {
@@ -25,12 +26,18 @@
   letter-spacing: -0.03em;
   color: #fbfbfb;
   display: block;
+
+}
+.footer-logo:hover, 
+.footer-logo:focus {
+  color: #0e1823;
 }
 
 .footer-nav {
   display: flex;
-  justify-content: space-between;
-  align-items: start;
+  flex-wrap: wrap;
+  justify-content:center;
+  row-gap: 37px;
 }
 
 .footer-nav-list {
@@ -79,10 +86,11 @@
 .soc-icon {
   display: flex;
   box-sizing: content-box;
+  fill: #fbfbfb;
 }
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
+.footer-soc-link:hover .soc-icon,
+.footer-soc-link:focus .soc-icon {
   fill: rgba(251, 251, 251, 0.8);
 }
 
