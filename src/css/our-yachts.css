@@ -1,7 +1,6 @@
 .our-yachts {
   background-color: #0e1823;
   text-align: center;
-  margin-bottom: 80px;
 }
 
 .our-yachts-title {
@@ -26,7 +25,7 @@
 }
 .yachts-card {
   border-radius: 24px;
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
@@ -53,7 +52,6 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-
   border-bottom: 1px solid rgba(4, 3, 6, 0.1);
   margin-bottom: 16px;
   padding-bottom: 16px;
