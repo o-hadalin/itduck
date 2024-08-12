@@ -1,6 +1,7 @@
 .our-yachts {
   background-color: #0e1823;
   text-align: center;
+  padding-top: 80px;
 }
 
 .our-yachts-title {
@@ -11,8 +12,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 40px;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding: 0 28px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media screen and (min-width: 768px) {
@@ -20,7 +20,10 @@
     font-size: 48px;
     display: block;
     width: 714px;
-    margin: 0 auto;
+    margin: 0 auto 75px;
+  }
+  .our-yachts {
+    padding-top: 150px;
   }
 }
 .yachts-card {
