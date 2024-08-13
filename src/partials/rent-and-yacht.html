@@ -31,30 +31,36 @@
       <h2 class="rent-title">Rent a yacht now</h2>
       <form class="rent-form">
         <div class="rent-form-text">
-          <label class="rent-form-label">
+          <label for="user-text" class="rent-form-label">
             <input
               class="rent-form-input"
+              id="user-text"
               type="text"
               name="user-name"
               placeholder="Full Name"
+              required
             />
           </label>
-          <label class="rent-form-label">
+          <label for="user-email" class="rent-form-label">
             <input
               class="rent-form-input"
+              id="user-email"
               type="email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
               name="user-email"
               placeholder="Email"
             />
           </label>
-          <label class="rent-form-label">
+          <label for="user-phone" class="rent-form-label">
             <input
               class="rent-form-input"
+              id="user-phone"
               type="tel"
               pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
               name="user-phone"
               placeholder="Phone number (e.g. +12-345-678-90-12)"
+              required
             />
           </label>
           <label class="rent-form-textarea-label">
