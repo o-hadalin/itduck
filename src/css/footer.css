@@ -28,10 +28,6 @@
   display: block;
   flex-grow: 1;
 }
-.footer-logo:hover,
-.footer-logo:focus {
-  color: #0e1823;
-}
 
 .footer-nav {
   display: flex;
