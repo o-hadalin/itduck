@@ -36,6 +36,18 @@
   display: block;
   height: 42px;
   margin-bottom: 18px;
+  position: relative;
+}
+
+.phone-hint {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 12px;
+  color: rgba(251, 251, 251, 0.4);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .rent-form-input {
@@ -53,9 +65,15 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.rent-form-input:focus + .phone-hint {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 input:invalid:not(:placeholder-shown) {
   background-color: rgb(128, 49, 53);
 }
+
 input:valid:not(:placeholder-shown) {
   background-color: rgb(57, 130, 71);
 }
